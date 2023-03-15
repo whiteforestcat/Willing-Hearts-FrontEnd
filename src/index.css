@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Font size: 48px */
+  h1 {
+    @apply text-5xl;
+  }
+
+  /* Font size: 32px */
+  h2 {
+    @apply text-[32px];
+  }
+
+  /* Font-size: 20px */
+  h3 {
+    @apply text-xl;
+    @apply font-light;
+  }
+}
+
+.input-zone {
+  text-align: center;
+  padding: 20px;
+  border: 3px blue dashed;
+  width: 60%;
+  margin: auto;
+}
+
+input[type="radio"]:checked + label {
+  @apply bg-primary;
+  @apply text-white;
+}
