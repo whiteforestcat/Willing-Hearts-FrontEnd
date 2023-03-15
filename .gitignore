@@ -124,3 +124,5 @@ yarn-debug.log*
 *.code-workspace
 
 dist
+# Local Netlify folder
+.netlify
